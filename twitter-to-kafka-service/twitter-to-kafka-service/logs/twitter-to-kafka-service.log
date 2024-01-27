@@ -1,0 +1,23 @@
+2024-01-27 21:23:46 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.microsevices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTest]: TwitterToKafkaServiceApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-01-27 21:23:46 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.microsevices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication for test class com.microsevices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTest
+2024-01-27 21:23:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTest - Starting TwitterToKafkaServiceApplicationTest using Java 17.0.10 with PID 4256 (started by 1618066 in C:\java\twitter-to-kafka-service)
+2024-01-27 21:23:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2024-01-27 21:23:49 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTest - Started TwitterToKafkaServiceApplicationTest in 1.755 seconds (process running for 4.352)
+2024-01-27 21:23:49 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2024-01-27 21:23:49 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MIcrosevices, Spring, Kafka, ElasticSearch]
+2024-01-27 22:15:28 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.microsevices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTest]: TwitterToKafkaServiceApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-01-27 22:15:28 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.microsevices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication for test class com.microsevices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTest
+2024-01-27 22:15:29 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTest - Starting TwitterToKafkaServiceApplicationTest using Java 17.0.10 with PID 12712 (started by 1618066 in C:\java\twitter-to-kafka-service)
+2024-01-27 22:15:29 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2024-01-27 22:15:30 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTest - Started TwitterToKafkaServiceApplicationTest in 1.681 seconds (process running for 4.059)
+2024-01-27 22:15:30 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2024-01-27 22:15:30 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Privet, Pivo, Vino, Pleskavica, Chevapi]
+2024-01-27 22:15:30 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices!
+2024-01-27 22:15:31 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-01-27 22:15:31 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Starter filterring twitter stream for keywords [Privet, Pivo, Vino, Pleskavica, Chevapi]
+2024-01-27 22:15:32 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-01-27 22:15:32 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
+2024-01-27 22:15:32 [Twitter Stream consumer /  [1][Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2024-01-27 22:15:33 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2024-01-27 22:15:33 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 500 milliseconds
+2024-01-27 22:15:33 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream!
