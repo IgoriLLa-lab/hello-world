@@ -7,14 +7,13 @@ import com.microsevices.demo.twitter.to.kafka.service.runner.StreamRunner;
 import jakarta.annotation.PreDestroy;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Component;
 import twitter4j.*;
 
 import java.util.Arrays;
 
 @Component
-@ConditionalOnExpression("${twitter-to-kafka-service.enable-v2-tweets} && not ${twitter-to-kafka-service.enable-mock-tweets}")
+@ConditionalOnExpression("${twitter-to-kafka-service.enable-mock-tweets} && not ${twitter-to-kafka-service.enable-v2-tweets}")
 public class TwitterKafkaStreamRunner implements StreamRunner {
 
     private static final org.slf4j.Logger LOG = LoggerFactory.getLogger(TwitterKafkaStreamRunner.class);
